@@ -1,9 +1,12 @@
+using Filters.CustomFilter;
 using Filters.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Filters.Controllers
 {
+    // [CustomResourceFilter]
+    [CustomExceptionFilter]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -20,7 +23,7 @@ namespace Filters.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            throw new Exception("Custom Error");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,7 +1,10 @@
+using Filters.CustomFilter;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddMvcOptions(option=>option.Filters.Add(new CustomExceptionFilter())); // Add Globaly Filter
 
 var app = builder.Build();
 
