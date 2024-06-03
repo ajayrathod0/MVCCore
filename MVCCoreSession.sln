@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filters", "Filters\Filters.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDUsingDBFirstCore", "CRUDUsingDBFirstCore\CRUDUsingDBFirstCore.csproj", "{A2E57896-BDFD-4344-B7A3-0C8947E6FE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDUsingDBCodeFirstCore", "CRUDUsingDBCodeFirstCore\CRUDUsingDBCodeFirstCore.csproj", "{4B949B3E-92D3-459C-8091-E2FB4142FF2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDUsingDBCodeFirstCore", "CRUDUsingDBCodeFirstCore\CRUDUsingDBCodeFirstCore.csproj", "{4B949B3E-92D3-459C-8091-E2FB4142FF2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationInMVCCore", "ValidationInMVCCore\ValidationInMVCCore.csproj", "{D8E82A93-A6B0-4CD8-AE07-6F59A71255F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4B949B3E-92D3-459C-8091-E2FB4142FF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B949B3E-92D3-459C-8091-E2FB4142FF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B949B3E-92D3-459C-8091-E2FB4142FF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E82A93-A6B0-4CD8-AE07-6F59A71255F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E82A93-A6B0-4CD8-AE07-6F59A71255F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E82A93-A6B0-4CD8-AE07-6F59A71255F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E82A93-A6B0-4CD8-AE07-6F59A71255F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
